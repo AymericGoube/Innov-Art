@@ -1,0 +1,38 @@
+
+body{
+  background-color: black;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 2.2em;
+}
+.navbar{
+  border-width: 0px;
+  background-color: black;
+  padding-top: 20px;
+}
+.navbar-brand .fa-lightbulb-o{
+  color: white;
+  font-size: 2.2em;
+  padding-left: 40px;
+}
+.navbar-default .navbar-nav{
+  padding-right: 5%;
+}
+.navbar-default .navbar-nav li{
+  margin-left: 5px;
+}
+.navbar-default .navbar-nav > li > a{
+  color: white;
+  letter-spacing: 0.11111111em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  transition: 0.2s ease-in-out;
+}
+.dropdown-menu{
+  background-color: black;
+}
+
+.dropdown-menu li a{
+  color: white;
+}
