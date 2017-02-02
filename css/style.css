@@ -3,13 +3,15 @@ body{
   background-color: black;
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 2.2em;
+  width: 100%;
+
 }
 .navbar{
   border-width: 0px;
   background-color: black;
-  padding-top: 20px;
+  padding-top: 10px;
 }
-.navbar-brand .fa-lightbulb-o{
+.navbar-brand .fa{
   color: white;
   font-size: 2.2em;
   padding-left: 40px;
@@ -31,8 +33,64 @@ body{
 }
 .dropdown-menu{
   background-color: black;
+  opacity: 0.4;
 }
 
 .dropdown-menu li a{
+  font-size: 1.4em;
   color: white;
+  opacity: 1;
+}
+.videomillieu{
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  z-index: 0;
+}
+video {
+  width: 75%;
+
+}
+#yo {
+  z-index: 1;
+  position: absolute;
+  padding-left: 40%;
+  padding-top: 13%;
+  text-align: center;
+  font-size: 69px;
+  font-family:"Times New Roman",Times, serif;
+  font-weight: lighter;
+  color: white;
+}
+
+.impact {
+  color: white;
+  font-size: 69px;
+  font-family:"Impact", sans-serif;
+}
+footer{
+  padding-top: 0;
+  color: white;
+}
+.dropdown-toggle{
+  opacity: 0.8;
+}
+.footertitre{
+  text-align: center;
+}
+footer ul{
+  padding-top: 5%;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+footer ul li a{
+  color: #E4E1E3;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 11px;
+  padding-left: 25px;
+
 }
