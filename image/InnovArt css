@@ -1,19 +1,21 @@
-
 body{
   background-color: black;
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 2.2em;
   width: 100%;
+  height: 100%;
 
+}
+
+p {
+  font-family:"Impact", sans-serif;
+  text-align: center;
+  color: white;
 }
 .navbar{
   border-width: 0px;
   background-color: black;
   padding-top: 10px;
-}
-.container-fluid img{
-  height: 110px;
-  width: 140px;
 }
 .navbar-brand .fa{
   color: white;
@@ -27,7 +29,6 @@ body{
   margin-left: 5px;
 }
 .navbar-default .navbar-nav > li > a{
-  opacity: 1;
   color: white;
   letter-spacing: 0.11111111em;
   text-transform: uppercase;
@@ -35,11 +36,10 @@ body{
 }
 .navbar-default .navbar-nav > li > a:hover{
   transition: 0.2s ease-in-out;
-  background-color: white;
 }
 .dropdown-menu{
   background-color: black;
-  
+  opacity: 0.4;
 }
 
 .dropdown-menu li a{
@@ -47,56 +47,14 @@ body{
   color: white;
   opacity: 1;
 }
-
 .videomillieu{
-text-align: center;
+  text-align: center;
   padding-top: 0;
   margin-top: 0;
   z-index: 0;
 }
 video {
   width: 75%;
-}
-#yo {
-  z-index: 1;
- position: absolute;
-width: 100%;
-top: 45%;
-  text-align: center;
-  font-size: 69px;
-  font-family:"Times New Roman",Times, serif;
-  font-weight: lighter;
-  color: white;
-}
-
-.impact {
-  color: white;
-  font-size: 69px;
-  font-weight: bold;
-  font-family:"Impact", sans-serif;
-}
-footer{
-  padding-top: 0;
-  color: white;
-}
-.dropdown-toggle{
-  opacity: 0.6;
-  border-radius: 3px;
-
-}
-.logos{
-  text-align: center;
-  padding-right: 60px;
-}
-.partenaire p{
-  padding-top: 5%;
-  text-align: center;
-  color: white;
-  font-size: 30px;
-}
-.logos img{
-  height: 20%;
-  width: 20%;
 }
 /* Main carousel style */
 .carousel {
@@ -161,27 +119,61 @@ footer{
   color: white;
   font-family: "Impact", sans-serif;
 }
-.carouselmidl h1{
-  color: white;
-  text-align: center;
-  font-weight: bold;
-}
 
 hr {
   width: 60%;
   color: white;
   height: 55px;
 }
-.dropdown-toggle:hover{
-  opacity: 1;
+
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  color: white;
+  margin-bottom: 65px;
+}
+
+#yo {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 69px;
+  font-family: "Times New Roman",Times, serif;
+  font-weight: lighter;
+  color: white;
+  margin: auto;
+  top: 40%;
+}
+
+.impact {
+  color: white;
+  font-size: 69px;
+  font-family:"Impact", sans-serif;
+}
+
+img {
+  width: 20%;
+}
+
+.logos{
+  text-align: center;
+  padding-right: 60px;
+  margin-bottom: 75px;
 }
 footer{
-  padding-top: 5%;
+  padding-top: 0;
+  color: white;
+}
+.dropdown-toggle{
+  opacity: 0.8;
 }
 .footertitre{
   text-align: center;
 }
 footer ul{
+  padding-top: 5%;
   padding-bottom: 0;
   display: flex;
   justify-content: center;
@@ -191,14 +183,10 @@ footer ul{
 }
 footer ul li a{
   color: #E4E1E3;
-  opacity: 0.6;
   font-family: "Open Sans",Arial,sans-serif;
   font-size: 11px;
   padding-left: 25px;
+
 }
-footer ul li a:hover{
-  transition: 0.2s ease-in-out;
-  color: white;
-  opacity: 1;
-  text-decoration: none;
-}
+
+
